@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">L1</string>
+    <string name="truee">true</string>
+    <string name="falsee">false</string>
+    <string name="cheat">cheat</string>
+    <string name="question">question</string>
+</resources>

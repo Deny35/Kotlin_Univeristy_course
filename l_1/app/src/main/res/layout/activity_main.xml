@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:layout_editor_absoluteX="85dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <TextView
+        android:id="@+id/score_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="73dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/button_cheat"
+        android:layout_width="0dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="119dp"
+        android:text="@string/cheat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_false"
+        android:layout_width="110dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="63dp"
+        android:text="@string/falsee"
+        app:layout_constraintBottom_toBottomOf="@+id/button_true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_true"
+        app:layout_constraintTop_toTopOf="@+id/button_true" />
+
+    <Button
+        android:id="@+id/button_true"
+        android:layout_width="110dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="1dp"
+        android:text="@string/truee"
+        app:layout_constraintBottom_toTopOf="@+id/button_cheat"
+        app:layout_constraintStart_toStartOf="@+id/button_cheat" />
+
+    <TextView
+        android:id="@+id/show_question"
+        android:layout_width="333dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="192dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/score_cheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="43dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="18sp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
