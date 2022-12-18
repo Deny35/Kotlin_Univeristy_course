@@ -11,7 +11,7 @@
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
-            android:id="@+id/to_fragmentDetal"
+            android:id="@+id/to_ffragmentDetal"
             app:destination="@id/fragmentDetal">
         <argument
             android:name="moduleId"
