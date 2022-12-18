@@ -28,7 +28,6 @@ class FragmentDetailsEdit : Fragment() {
         val bin = FragmentDetailsEditBinding.inflate(LayoutInflater.from(context))
         bin.apply {
             val b = dbHandler.getEdit(a)
-            println("AAaaaAA")
             binding.editTextPoints.setText(b[0])
             binding.editTextInfo.setText(b[1])
 

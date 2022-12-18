@@ -46,7 +46,6 @@ class FragmentAddPhoto : Fragment() {
 
         binding.buttonCamera.setOnClickListener {
             openCamera()
-            println("Camera")
         }
 
         binding.buttonSavePicture.setOnClickListener {
