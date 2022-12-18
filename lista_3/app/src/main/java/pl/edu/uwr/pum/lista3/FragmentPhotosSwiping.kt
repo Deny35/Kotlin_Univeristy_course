@@ -44,6 +44,14 @@ class FragmentPhotosSwiping : Fragment() {
             )
         }
 
+        binding.buttonTasks.setOnClickListener {
+            view.findNavController().navigate(
+                FragmentPhotosSwipingDirections.toFragmentListDetailsFromPhotos(
+                    moduleTab = (a-10)
+                )
+            )
+        }
+
         binding.viewPager.adapter?.notifyItemInserted(dbHandler.getAllPhotos(a).size)
 
     }

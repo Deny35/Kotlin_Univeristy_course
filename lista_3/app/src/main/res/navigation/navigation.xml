@@ -83,6 +83,13 @@
                 android:name="moduleTab"
                 app:argType="integer" />
         </action>
+        <action
+            android:id="@+id/to_fragmentListDetails_from_photos"
+            app:destination="@id/fragmentListDetails" >
+        <argument
+            android:name="moduleTab"
+            app:argType="integer" />
+        </action>
     </fragment>
     <fragment
         android:id="@+id/fragmentAddPhoto"

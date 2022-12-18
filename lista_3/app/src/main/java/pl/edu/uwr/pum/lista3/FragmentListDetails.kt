@@ -30,7 +30,6 @@ class FragmentListDetails : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val dbHandler = DBHandler(requireContext())
         val a = requireArguments().getInt("moduleTab")
-        println(a)
         binding.letterRecyclerViewDetails.apply {
             layoutManager = LinearLayoutManager(requireContext())
             adapter = AdapterFragmentDetails(dbHandler.getAllItems(a), this@FragmentListDetails)

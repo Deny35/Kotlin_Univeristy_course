@@ -42,6 +42,13 @@
                 android:layout_weight="0.5"
                 android:text="ADD" />
 
+            <Button
+                android:id="@+id/button_tasks"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_weight="0.5"
+                android:text="TASKS " />
+
         </LinearLayout>
 
     </LinearLayout>
